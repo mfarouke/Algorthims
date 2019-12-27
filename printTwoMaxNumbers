@@ -1,0 +1,15 @@
+//c# function to get two Maxiumm Numbers
+public void printTwoMaxNumbers(int[] nums){
+        int maxOne = 0;
+        int maxTwo = 0;
+        for(int i=0;i<nums.Length;i++){
+            if(maxOne < nums[i]){
+                maxTwo = maxOne;
+                maxOne =nums[i];
+            } else if(maxTwo < nums[i]){
+                maxTwo = nums[i];
+            }
+        }
+        Console.WriteLine("First Max Number: "+maxOne);
+        Console.WriteLine("Second Max Number: "+maxTwo);
+    }
