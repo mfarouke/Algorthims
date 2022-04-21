@@ -1,4 +1,4 @@
-//c# function to get two Maxiumm Numbers
+//c# function to get two Maxiumm Numbers from array
 public void printTwoMaxNumbers(int[] nums){
         int maxOne = 0;
         int maxTwo = 0;
